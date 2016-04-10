@@ -1,0 +1,19 @@
+{
+  "name": "challenge-framework",
+  "version": "1.0.0",
+  "description": "testing api for user-generated javascript code",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/br-kwon/challenge-framework.git"
+  },
+  "author": "Brian Kwon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/br-kwon/challenge-framework/issues"
+  },
+  "homepage": "https://github.com/br-kwon/challenge-framework#readme"
+}
