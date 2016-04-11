@@ -4,7 +4,8 @@
   "description": "testing api for user-generated javascript code",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/br-kwon/challenge-framework#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "express": "^4.13.4"
   }
 }
