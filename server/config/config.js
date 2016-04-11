@@ -1,5 +1,5 @@
 
 module.exports = {
-  port: 8000,
-  serverURL : 'http://localhost:8000'
+  port: process.env.PORT,
+  serverURL : process.env.SERVERURL
 }
