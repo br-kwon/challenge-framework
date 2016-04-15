@@ -2,6 +2,8 @@ var editor = ace.edit("editor");
     editor.setTheme("ace/theme/chrome");
     editor.session.setMode("ace/mode/javascript");
 
+var hostname = "https://sheltered-fjord-16534.herokuapp.com/"
+
 
 var app = {};
 
@@ -9,7 +11,7 @@ app.currentQuestion = 1;
 
 app.sendCode = function(code) {
   $.ajax({
-    url: "http://localhost:8000/" + app.currentQuestion,
+    url: hostname + app.currentQuestion,
     type: "POST",
     data: JSON.stringify(code),
     contentType : "application/json",
@@ -29,7 +31,7 @@ app.sendCode = function(code) {
 };
 
 app.fetchQuestion = function(id) {
-  $.get('http://localhost:8000/' + id, function(data) {
+  $.get(hostname + id, function(data) {
     $('.question').text('Question ' + id + ': ' + data);
   });
 };
