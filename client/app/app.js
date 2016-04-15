@@ -2,7 +2,7 @@ var editor = ace.edit("editor");
     editor.setTheme("ace/theme/chrome");
     editor.session.setMode("ace/mode/javascript");
 
-var hostname = "http://localhost:8000/"
+var hostname = "https://sheltered-fjord-16534.herokuapp.com/"
 
 
 var app = {};
