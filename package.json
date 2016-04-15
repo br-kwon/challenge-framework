@@ -19,6 +19,7 @@
   "homepage": "https://github.com/br-kwon/challenge-framework#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
+    "esprima": "^2.7.2",
     "express": "^4.13.4"
   }
 }
